@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------
+# Licensed corpus data must never be committed.
+# TOEFL11 (ETS) and ICLEv3 (UCLouvain) cannot be redistributed.
+# ---------------------------------------------------------------
+data/
+models/
+*.csv
+*.tsv
+*.txt
+# ...but requirements.txt is repo metadata, not corpus data:
+!requirements.txt
+*.pkl
+*.joblib
+
+# Notebook outputs can embed essay text; keep them out.
+*.nbconvert.ipynb
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store

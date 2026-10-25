@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Native Language Identification: cross-corpus audit of SVM and LLM systems"
+abstract: >-
+  Code for a cross-corpus audit of native language identification (NLI):
+  a TF-IDF + LinearSVC classifier trained on TOEFL11 and a zero-shot LLM,
+  both evaluated on TOEFL11 and ICLEv3, with three audits for corpus
+  artifacts that can inflate NLI accuracy (document-ID headers,
+  self-disclosure of nationality, and topic exclusivity).
+type: software
+authors:
+  - family-names: Rahimi
+    given-names: Shima
+    email: shimarahimi1988@gmail.com
+    affiliation: "Independent Researcher, Iran"
+    # TODO add an ORCID if you register one (free, and useful for PhD applications):
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+license: MIT
+version: 1.0.0
+date-released: "2026-10-25"   # TODO set to the Zenodo publication date
+repository-code: "https://github.com/TODO-USERNAME/TODO-REPO"
+doi: "10.5281/zenodo.TODO"    # TODO the Zenodo DOI for this archive
+keywords:
+  - native language identification
+  - corpus artifacts
+  - shortcut learning
+  - cross-corpus evaluation
+  - large language models
+preferred-citation:
+  type: conference-paper
+  title: >-
+    How Much of Native Language Identification Is Corpus Artifact?
+    A Cross-Corpus Audit of SVMs and LLMs on TOEFL11 and ICLEv3
+  authors:
+    - family-names: Rahimi
+      given-names: Shima
+      affiliation: "Independent Researcher, Iran"
+  year: 2026
+  # TODO confirm the exact proceedings title, pages and publisher from the
+  # organizers' camera-ready instructions before publishing.
+  collection-title: >-
+    Proceedings of the 15th Workshop on Natural Language Processing for
+    Computer-Assisted Language Learning (NLP4CALL 2026)
+  conference:
+    name: "NLP4CALL 2026"
+    city: "Gothenburg"
+    country: "SE"
+    date-start: "2026-11-19"
+    date-end: "2026-11-20"
