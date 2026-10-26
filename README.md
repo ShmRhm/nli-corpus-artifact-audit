@@ -115,7 +115,6 @@ are not covered by this licence and remain subject to their own terms.
 
 ## Citing this code
 
-**DOI: TODO -- insert the Zenodo DOI here before making this repository public.**
 
 If you use this code, please cite the paper:
 
